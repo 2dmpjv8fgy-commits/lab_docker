@@ -257,7 +257,7 @@ lab_docker  | 192.168.65.1 - - [31/May/2026 11:33:52] "GET /favicon.ico HTTP/1.1
 ```
 </details>
 
-<img width="1512" height="982" alt="Снимок экрана 2026-05-31 в 2 40 28 PM" src="https://github.com/user-attachments/assets/3ff3ebc6-2a58-4870-a4f8-aabea31807c5" />
+<img width="1512" height="982" alt="Снимок экрана 2026-06-03 в 11 44 53 PM" src="https://github.com/user-attachments/assets/828a5641-5e25-41f4-b7b9-fa3ecf0d59e7" />
 
 Закрываем контейнеры: `docker compose down`
 
