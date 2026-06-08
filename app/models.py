@@ -4,10 +4,11 @@ import mysql.connector
 class ItemModel:
     def __init__(self):
         self.config = {
-            'host': os.getenv('DB_HOST', os.getenv('DB_HOST')),
-            'user': os.getenv('DB_USER', os.getenv('DB_USER')),
-            'password': os.getenv('DB_PASS', os.getenv('DB_PASS')),
-            'database': os.getenv('DB_NAME', os.getenv('DB_NAME'))
+            'host': os.getenv('DB_HOST'),
+            'user': os.getenv('DB_USER'),
+            'password': os.getenv('DB_PASS'),
+            'database': os.getenv('DB_NAME'),
+            'charset': 'utf8mb4'
         }
 
     def get_all_items(self):
@@ -22,4 +23,3 @@ class ItemModel:
         except Exception as e:
             print(f"Error: {e}")
             return []
-
